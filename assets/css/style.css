@@ -48,7 +48,7 @@
     outline: none;
     border: none;
     padding: 12px;
-    width: 100%;
+    width: 40%;
     font-size: 2.2rem;
     border: 2px solid var(--grey);
     border-radius: 12px;
@@ -167,11 +167,11 @@
   
   .select-dropdown,
   .select-status {
-    display: block;
+    display: inline-block;
     font-size: 2.2rem;
     color: #444;
     padding: 12px;
-    width: 100%;
+    width: 40%;
     max-width: 100%;
     margin: 0;
     border: 2px solid var(--grey);
@@ -180,7 +180,7 @@
     -webkit-appearance: none;
     appearance: none;
     background-color: #fff;
-    background-image: url("../images/select-arrow.svg");
+    background-image: url("../images/arrow.png");
     background-repeat: no-repeat, repeat;
     background-position: right 0.7em top 50%, 0 0;
     background-size: 0.65em auto, 100%;
